@@ -50,4 +50,3 @@ heap=[]
 for k,v in Counter.items():
     heapq.heappush(heap, (k,v))
 print(heap)
-

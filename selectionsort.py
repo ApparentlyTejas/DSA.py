@@ -11,6 +11,3 @@ def selection_sort(arr):
                 arr[i], arr[min_index] = arr[min_index], arr[i]
 selection_sort(C)
 print(C)
-
-
-    
