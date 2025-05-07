@@ -10,3 +10,4 @@ class Solution:
             return closest
         
         #time: O(n)
+        #space: O(1)
