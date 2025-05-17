@@ -13,3 +13,5 @@ class Solution:
                 ans.append(str(nums[i]))
             i += 1
         return ans
+    #time : O(n)
+    #space: O(1)
