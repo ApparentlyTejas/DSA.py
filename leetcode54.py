@@ -38,3 +38,5 @@ class solution:
                 UP_WALL += 1
                 direction = RIGHT
         return ans
+    #Time: O(m*n)
+    #space: O(1)
