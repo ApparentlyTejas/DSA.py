@@ -1,5 +1,5 @@
 class solution:
-    def rotateImage(self, matrix: list[list(int)]) -> None:
+    def rotateImage(self, matrix: list[list[int]]) -> None:
         n = len(matrix)
         #Transpose
         for i in range(n):
@@ -8,4 +8,7 @@ class solution:
         #reflection 
         for i in range(n):
             for j in range(n // 2):
-                matrix[i][j], matrix[i][n-j-1] = matrix[i][n-j-1][i]
+                matrix[i][j], matrix[i][n-j-1] = matrix[i][n-j-1], matrix[i][j]
+
+#time = O(n^2)
+#space = O(1)
