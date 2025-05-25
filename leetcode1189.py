@@ -12,4 +12,4 @@ class Solution:
             return min(counter['b'],counter['a'], counter['l']//2, counter['o']//2, counter['n'])
         
 #time: O(n)
-#space: O(n)
+#space: O(1)
