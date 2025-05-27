@@ -23,3 +23,4 @@ class Solution:
                 else: 
                     hi -= 1
         return answer
+#time: O(n^2) space: O(n)
