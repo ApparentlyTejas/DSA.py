@@ -11,3 +11,4 @@ class Solution:
             else:
                 stk.append(int(op))
         return sum(stk)
+# Time: O(n) Space: O(n)
