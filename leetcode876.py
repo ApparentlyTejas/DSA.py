@@ -8,3 +8,5 @@ class Solution:
             slow = slow.next
 
         return slow
+    
+#time: O(n)    space: O(1)
