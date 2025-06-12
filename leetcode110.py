@@ -20,4 +20,4 @@ class Solution:
         return balanced[0]
 
 # Time: O(n)
-# Space: O(n)
+# Space: O(h)
