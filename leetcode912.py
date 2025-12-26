@@ -2,10 +2,10 @@ class Solution:
     def sortArray(self, nums: list[int]) -> list[int]:
 
         def merge(arr, L, M, R):
-            left, right = arr[L: M+1] , arr[M+1: R]
+            left, right = arr[L: M+1] , arr[M+1: R+1]
             i , j , k = L , 0 , 0
             while j < len(left) and k < len(right):
-                if left(j) < right(k):
+                if left[j] < right[k]:
                     arr[i] = left[j]
                     j += 1
 
