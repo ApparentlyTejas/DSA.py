@@ -34,3 +34,5 @@ class Solution:
 
         mergeSort(nums, 0, len(nums) - 1)
         return nums
+    
+# time: O(n log n)  space: O(1)
